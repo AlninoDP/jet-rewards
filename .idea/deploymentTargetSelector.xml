@@ -11,6 +11,9 @@
       <SelectionState runConfigName="increaseProduct_buttonEnabled()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="JetRewardAppTest">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
