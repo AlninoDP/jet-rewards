@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -47,6 +48,7 @@ fun ProductCounter(
         Text(
             text = orderCount.toString(),
             modifier = Modifier
+                .testTag("count")
                 .weight(1f),
             fontSize = 20.sp,
             textAlign = TextAlign.Center,

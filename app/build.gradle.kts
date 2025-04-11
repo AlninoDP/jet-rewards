@@ -60,4 +60,5 @@ dependencies {
 
     // Navigation Component
     implementation(libs.androidx.navigation.compose)
+    testImplementation(libs.navigation.testing)
 }
